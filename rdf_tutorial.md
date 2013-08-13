@@ -116,14 +116,18 @@ RDF
 	</rdf:RDF>
 	```
 	
-Number | Subject | Predicate | Object
---- | --- | --- 
-1 | genid:A179883 | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag
-2 | http://www.recshop.fake/cd/Beatles | http://www.recshop.fake/cd#artist | genid:A179883
-3 | genid:A179883 | http://www.w3.org/1999/02/22-rdf-syntax-ns#_1 | "John"
-4 | genid:A179883 | http://www.w3.org/1999/02/22-rdf-syntax-ns#_2 | "Paul"
-5 | genid:A179883 | http://www.w3.org/1999/02/22-rdf-syntax-ns#_3 | "George"
-6 | genid:A179883 | http://www.w3.org/1999/02/22-rdf-syntax-ns#_4 | "Ringo"
+	```table
+	|Number | Subject | Predicate | Object
+	| ---- |: ---- |: ---- 
+	|1 | genid:A179883 | http://www.w3.org/1999/02/22-rdf-syntax-ns#type | http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag
+	|2 | http://www.recshop.fake/cd/Beatles | http://www.recshop.fake/cd#artist | genid:A179883
+	|3 | genid:A179883 | http://www.w3.org/1999/02/22-rdf-syntax-ns#_1 | "John"
+	|4 | genid:A179883 | http://www.w3.org/1999/02/22-rdf-syntax-ns#_2 | "Paul"
+	|5 | genid:A179883 | http://www.w3.org/1999/02/22-rdf-syntax-ns#_3 | "George"
+	|6 | genid:A179883 | http://www.w3.org/1999/02/22-rdf-syntax-ns#_4 | "Ringo"
+	```
+
+
 
 * RDF Collections
 	* rdf:parseType="Collection"
